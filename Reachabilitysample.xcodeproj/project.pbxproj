@@ -14,6 +14,8 @@
 		87D08B161A079958002A1699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D08B151A079958002A1699 /* Images.xcassets */; };
 		87D08B191A079958002A1699 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D08B171A079958002A1699 /* LaunchScreen.xib */; };
 		87D08B251A079958002A1699 /* ReachabilitysampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D08B241A079958002A1699 /* ReachabilitysampleTests.m */; };
+		87D08B301A07996A002A1699 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D08B2F1A07996A002A1699 /* Reachability.m */; };
+		87D08B321A079A31002A1699 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D08B311A079A31002A1699 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		87D08B1E1A079958002A1699 /* ReachabilitysampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReachabilitysampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D08B231A079958002A1699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D08B241A079958002A1699 /* ReachabilitysampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilitysampleTests.m; sourceTree = "<group>"; };
+		87D08B2E1A07996A002A1699 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../Reachability.h; sourceTree = "<group>"; };
+		87D08B2F1A07996A002A1699 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../Reachability.m; sourceTree = "<group>"; };
+		87D08B311A079A31002A1699 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D08B321A079A31002A1699 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		87D08AFC1A079958002A1699 = {
 			isa = PBXGroup;
 			children = (
+				87D08B311A079A31002A1699 /* SystemConfiguration.framework */,
 				87D08B071A079958002A1699 /* Reachabilitysample */,
 				87D08B211A079958002A1699 /* ReachabilitysampleTests */,
 				87D08B061A079958002A1699 /* Products */,
@@ -81,6 +88,8 @@
 		87D08B071A079958002A1699 /* Reachabilitysample */ = {
 			isa = PBXGroup;
 			children = (
+				87D08B2E1A07996A002A1699 /* Reachability.h */,
+				87D08B2F1A07996A002A1699 /* Reachability.m */,
 				87D08B0C1A079958002A1699 /* AppDelegate.h */,
 				87D08B0D1A079958002A1699 /* AppDelegate.m */,
 				87D08B0F1A079958002A1699 /* ViewController.h */,
@@ -221,6 +230,7 @@
 			files = (
 				87D08B111A079958002A1699 /* ViewController.m in Sources */,
 				87D08B0E1A079958002A1699 /* AppDelegate.m in Sources */,
+				87D08B301A07996A002A1699 /* Reachability.m in Sources */,
 				87D08B0B1A079958002A1699 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
